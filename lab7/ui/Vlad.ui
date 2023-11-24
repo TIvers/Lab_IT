@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1233</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>681</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Heading</family>
+      <pointsize>15</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;Sitka Heading&quot;;
+
+</string>
+    </property>
+    <property name="title">
+     <string>CSV Файл</string>
+    </property>
+    <widget class="QTableView" name="tableView">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>661</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>10</y>
+      <width>531</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Heading</family>
+      <pointsize>15</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;Sitka Heading&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Данные</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>540</y>
+       <width>191</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Heading</family>
+       <pointsize>15</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Закрыть</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>511</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Heading</family>
+       <pointsize>15</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>530</y>
+      <width>181</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Открыть</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>540</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Сохранить</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>681</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Heading</family>
+      <pointsize>15</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;Sitka Heading&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Статистика</string>
+    </property>
+    <widget class="QTableView" name="tableView_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>661</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </widget>
+   <zorder>groupBox_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>groupBox_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1233</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="action_4"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Пропуски</string>
+    </property>
+    <addaction name="action_5"/>
+    <addaction name="separator"/>
+    <addaction name="actionPad"/>
+    <addaction name="actionFill"/>
+    <addaction name="separator"/>
+    <addaction name="actionAkima"/>
+    <addaction name="actionPolynomial_2"/>
+    <addaction name="actionSpline_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>Графики</string>
+    </property>
+    <addaction name="action_1"/>
+    <addaction name="action_7"/>
+    <addaction name="action_8"/>
+    <addaction name="action_9"/>
+    <addaction name="action_10"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Регрессия</string>
+    </property>
+    <addaction name="action_6"/>
+    <addaction name="action_11"/>
+    <addaction name="action_12"/>
+    <addaction name="separator"/>
+    <addaction name="action_14"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="action">
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Печать</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Проверка на NULL</string>
+   </property>
+  </action>
+  <action name="actionAkira">
+   <property name="text">
+    <string>Akima</string>
+   </property>
+  </action>
+  <action name="actionSpline">
+   <property name="text">
+    <string>Spline</string>
+   </property>
+  </action>
+  <action name="actionPolynomial">
+   <property name="text">
+    <string>Polynomial</string>
+   </property>
+  </action>
+  <action name="actionPad">
+   <property name="text">
+    <string>Pad</string>
+   </property>
+  </action>
+  <action name="actionFill">
+   <property name="text">
+    <string>Fill all 0</string>
+   </property>
+  </action>
+  <action name="action_1">
+   <property name="text">
+    <string>График №1</string>
+   </property>
+  </action>
+  <action name="actionAkima">
+   <property name="text">
+    <string>Akima</string>
+   </property>
+  </action>
+  <action name="actionPolynomial_2">
+   <property name="text">
+    <string>Polynomial</string>
+   </property>
+  </action>
+  <action name="actionSpline_2">
+   <property name="text">
+    <string>Spline</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>График №2</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>График №3</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>График №4</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>График №5</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Линейная регрессия</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>Ридж регрессия</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>Лассо регрессия</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>Общий график</string>
+   </property>
+  </action>
+  <action name="actionTEST">
+   <property name="text">
+    <string>TEST</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

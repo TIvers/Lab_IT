@@ -1,0 +1,5 @@
+name = input("Введите ФИО ")
+film = input("Название фильма ")
+place = input("Номер места ")
+row = input("Номер ряда ")
+print(name, film, row, place)
